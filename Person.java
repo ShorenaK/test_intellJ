@@ -1,10 +1,3 @@
-// choncxi , tmeplates king and quinc bulding the stong desinging reusble  castle to ein the war against oopont  for the bottole
-// to class is the choncjhi consutrecter is the bulder, bulding the , chess figures and definted the method as he object isadded with methid staing
-// what assing its coballity to do win the bottle "' chess game""
-// in the bulder -- consturure we deifne the varboles meaning what tolls the bulder will be using to buld
-// objects Suchas : tool of string the fisr name and last name tool of int age, then we create what objec can do so we create methds with ht elass.
-//
-//
 //class Person {
 //    String firstName;
 //    String lastName;
@@ -26,7 +19,7 @@
 //    }
 //
 //    public static void main(String[] args){
-//        Person person1 = new Person("Shorena", "Anzhilov", 49);
+//        Person person1 = new Person("Ellene", "Ellite", 29);
 //        person1.desplayInfo();
 //
 //    }*/
@@ -48,7 +41,7 @@
 //    }
 //
 ////    public static void main(String[] arg){
-////        Person person = new Person("Shorena", "Anzhilov", 49);
+////        Person person = new Person("Masha", "Johsnon", 29);
 ////
 ////        person.getFirstName();
 ////        person.getLastName();
@@ -99,7 +92,10 @@ public class Person {
     public int getAge() {
         return 2024 - yearOfBirth; // Assuming age is calculated based on the current year
     }
-
+    /**
+     * get the fullname and return the firt and last name
+     * @return
+     */
     public String getFullName() {
         return firstName + " " + lastName;
     }
